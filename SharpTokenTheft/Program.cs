@@ -10,7 +10,7 @@ using System.IO;
 
 namespace SharpTokenTheft {
 	class Program {
-
+	
 		public static bool AdjustTokenPrivilege(string priv) {
 			try {
 				Pinvoke.PTOKEN_PRIVILEGES tPriv;
